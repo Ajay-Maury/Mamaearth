@@ -1,0 +1,73 @@
+#header{
+    text-align: center;
+    background-color: #f2f9e8;
+    font-weight: bolder;
+    padding: 2%;
+    color: #8a9abc;
+}
+#header>h1{padding: 0;}
+.top{
+    text-align: center;
+    padding: 2%;
+    font-weight: bolder;
+    margin: 8%;
+    color: black;
+}
+#contact_us{
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+}
+#contact_us>div{
+    flex: 5;
+}
+#c_form>input,select,option,textarea,button{
+    width: 95%;
+    padding: 2% 0;
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid #8a9abc;
+}
+#c_form{
+    border-right: 1px solid #8a9abc;
+    color: #8a9abc;
+}
+#c_form>button{
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #00aefe;
+    color: white;
+    cursor: pointer;
+}
+#detail_wrapper{
+    width: 80%;
+    margin: auto;
+}
+#detail_wrapper>div,#detail_wrapper>div>div{
+    display: flex;
+    gap: 5%;
+}
+.c_icon{
+    height: fit-content;
+    padding: 5%;
+    border: 1px solid #8a9abc;
+    border-radius: 50%;
+}
+#social_icon{
+    width: 80%;
+    margin: auto auto;
+    font-size: 3vw;
+}
+#social_icon>div{
+    margin:0 2%;
+    padding: 1% 2%;
+}
+#c_home{
+    font-weight: 600;
+    color: #8a9abc;
+}
+#c_home>a{
+    text-decoration: none;            
+    color: #00aefe;
+}
