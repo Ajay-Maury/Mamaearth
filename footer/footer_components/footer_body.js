@@ -96,7 +96,7 @@ function footer_body(){
                 <div><a href="https://www.instagram.com/mamaearth.in/?hl=en"><i class="fa-brands fa-instagram"></i></a></i></div>
                 <div><a href="https://www.youtube.com/channel/UC5qhqSIcahBKKMEdLPFqeVA"><i class="fa-brands fa-youtube"></i></a></div>
                 <div><a href="https://in.pinterest.com/mamaearthindia/"><i class="fa-brands fa-pinterest"></i></a></div>
-                <div><a href="mailto:care@mamaearth.in">i class="fa-solid fa-envelope"></i></a><</div>
+                <div><a href="mailto:care@mamaearth.in"><i class="fa-solid fa-envelope"></i></a></div>
             </div>
         </div>
         <div id="rights">
