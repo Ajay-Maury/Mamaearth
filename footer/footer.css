@@ -1,6 +1,7 @@
 #footer_wrapper{
     width: 80%;
     margin: 2% auto;
+    font-size: 2vw;
     padding: 2%;
 }
 #footer_wrapper>div{
@@ -27,6 +28,7 @@
 }
 .query , #rights{
     text-align: center;
+
 }
 .query>button{
     background-color: inherit;
@@ -106,16 +108,28 @@
     text-align: center;
     border-bottom: 1px solid #c5c0c0;
     border-top: 1px solid #c5c0c0;
+    font-size: 2vw;
 }
 #heart_icon{
     color: red;
 }
 #footer_social_icons{
+    font-size: 3vw;
     width: 50%;
     margin: 2% auto;
-    font-size: 2em;
 }
 #footer_social_icons>div
 {
     display: inline-block;
+} 
+@media screen and (min-width:768px) and (max-width:1000px) {
+    #footer_nav{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #brand{display: none;}
+}
+@media screen and (min-width:0px) and (max-width:768px) {
+    #footer_nav{
+        display: none;
+    }
 }
