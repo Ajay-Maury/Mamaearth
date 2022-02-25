@@ -1,7 +1,7 @@
 #footer_wrapper{
     width: 80%;
     margin: 2% auto;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 2%;
 }
 #footer_wrapper>div{
@@ -10,7 +10,7 @@
 .service_feature ,.service_f{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10%    ;
+    gap: 3%    ;
 }
 .service_feature{
     border-bottom: solid 1px #c5c0c0;
@@ -20,7 +20,7 @@
     text-align: center;            
 }
  .service_icon{
-    font-size: 2vw;
+    /* font-size: 2vw; */
     color: greenyellow;
 }
 .service1{
@@ -28,12 +28,13 @@
 }
 .query , #rights{
     text-align: center;
+    margin: 1%;
 
 }
 .query>button{
     background-color: inherit;
     border: 1px solid #26adee;
-    padding: 3% 5%;
+    padding: 2% 5%;
     border-radius: 5px;
     font-weight: 500;
     color: #26adee;
@@ -44,8 +45,11 @@
     background: #26adee;
 }
 #footer_payment{
+    display: grid;
     text-align: center;
     margin: 2% auto;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom: 1px solid #c5c0c0;
 }
 .footer_p >div{
     margin: 2%;
@@ -71,13 +75,13 @@
     width: 60px;            
 }
 #certification{
-    width: 60%;
+    width: 50%;
     margin: 7% auto;
     display: flex;
     gap: 11%;
 }
 #certification img{
-    width: 65px;
+    width: 50px;
     /* width: 30%; */
 }
 #footer_nav{
@@ -97,24 +101,20 @@
 }
 #brand> img{
     margin-top: 30px;
-    width: 100%;
+    width: 60%;
 }
-#footer_payment{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    border-bottom: 1px solid #c5c0c0;
-}
+
 #social_count{
     text-align: center;
     border-bottom: 1px solid #c5c0c0;
     border-top: 1px solid #c5c0c0;
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
 #heart_icon{
     color: red;
 }
 #footer_social_icons{
-    font-size: 3vw;
+    font-size: 2vw;
     width: 50%;
     margin: 2% auto;
 }
@@ -127,9 +127,35 @@
         grid-template-columns: repeat(3,1fr);
     }
     #brand{display: none;}
+
+    
 }
 @media screen and (min-width:0px) and (max-width:768px) {
     #footer_nav{
         display: none;
     }
+    #certification{
+        width: 90%;
+    }
+    #certification img{
+        width: 40px;
+    }
+    #footer_wrapper{
+        font-size: 2.5vw;
+    }
+    #footer_social_icons{
+        font-size: 4vw;
+    }
+    .pay_img img{width: 40px;}
+}
+@media screen and (min-width:0px)  and (max-width:1000px){
+    #footer_payment{
+        display: block;
+    }
+    .service_f{border-bottom: 1px solid #c5c0c0;}
+    .footer_p >div{margin: 0.5%;}
+    #certification{margin: 1% auto;}
+    .service_f{grid-template-columns: repeat(4,1fr);}
+    .service_feature{display: block;}
+    
 }
