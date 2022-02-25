@@ -6,6 +6,9 @@
     color: #8a9abc;
 }
 #contact_head>h1{padding: 0;}
+#slideshow{
+    display: none;
+}
 .top{
     text-align: center;
     padding: 2%;

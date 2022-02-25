@@ -11,6 +11,7 @@
 </head>
 <body>
     <div id="container">
+        <div id="nav"></div>
         <div id="contact_head">
             <h1>Contact Us</h1>
         </div>
@@ -74,6 +75,8 @@
 </body>
 </html>
 <script type="module">
+    import header from "./header.js"
+    document.getElementById("nav").innerHTML = header()
     import footer_body from "./footer/footer_components/footer_body.js";
     document.getElementById("footer").innerHTML = footer_body()
 </script>

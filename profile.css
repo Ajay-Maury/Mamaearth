@@ -15,6 +15,9 @@
     border: 1px solid #e5e5e5;
     border-radius: 5px;
 }
+#slideshow{
+    display: none;
+}
 .menu_item{
     padding: 5% 3.2%;
     display: flex;

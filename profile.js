@@ -1,4 +1,7 @@
 import footer_body from "./footer/footer_components/footer_body.js";
+import header from "./header.js"
+document.getElementById("nav").innerHTML = header()
+
 document.getElementById("footer").innerHTML = footer_body();
 
 var btns = document.getElementsByClassName("menu_item");

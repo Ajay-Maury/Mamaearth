@@ -1,3 +1,9 @@
+import footer_body from "../footer/footer_components/footer_body.js";
+import header from "../header.js"
+document.getElementById("nav").innerHTML = header()
+
+document.getElementById("footer").innerHTML = footer_body();
+
 
 var a= document.getElementById("fname").value;
 var b=document.getElementById("lname").value;

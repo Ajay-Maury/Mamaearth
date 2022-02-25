@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./footer/footer.css">
     <title>Document</title>
 <style>
 
@@ -14,18 +16,19 @@
        #delivery_address{
 
         width:50%;
-        margin-top: 15%;
-        margin-left:10%;
+        margin: 5% auto;
 }
 #fname,#lname,#email,#number{
     width:45%;
     padding:1.5%;
 }
-input{
+#cart>input , #payment>input{
     margin-bottom: 4%;
     border:2px solid lightgray ; 
 }
-
+#slideshow{
+    display: none;
+}
 #pin,#city,#state{
     width:29%;
     padding:1%;
@@ -61,7 +64,7 @@ align-items: center;
 .add-opt>button:hover{
     background-color: aqua ;
 }
-.select{
+.select_add{
     margin-top: 0;
     color:gray;
 }
@@ -312,6 +315,7 @@ align-items: center;
  
 </head>
 <body>
+    <div id="nav"></div>
 
  <div id="cart">
 
@@ -336,7 +340,7 @@ align-items: center;
 <input type="text" id="address" placeholder="Address(House No,Building,Street,Area)*">
 
 
-<h3 class="select">Select the type of the Address</h3>
+<h3 class="select_add">Select the type of the Address</h3>
 
 <div class="add-opt">
     <button id="add-opt1">Home</button>
@@ -404,7 +408,7 @@ align-items: center;
 
 </div>
 
-
+<!-- 
 <div id="below-cont">
     <div id="below-fdiv">
          
@@ -465,9 +469,9 @@ align-items: center;
      <div id="varify">
     <img src="https://mamaearthp.imgix.net/wysiwyg/MadeSafeImages13Jan/madesafe13janlogo.png?auto=format" alt="">
     <h4>Made Safe Certified</h4>
-    </div>
+    </div> -->
     <!-- <img src="https://mamaearthp.imgix.net/wysiwyg/cruelty-free_SjVJgQA.png?auto=format" alt="">
-    <h4></h4> -->
+    <h4></h4>
 </div>
 
 
@@ -478,7 +482,7 @@ align-items: center;
 
 <div id="tdiv-fdiv">
     <h3>USEFUL LINKS</h3>
-    <!-- <a href="https://mamaearth.in/privacy-policy">Privacy Policy</a> -->
+    <a href="https://mamaearth.in/privacy-policy">Privacy Policy</a>
    <div><a href="https://mamaearth.in/privacy-policy">Privacy Policy</a></div>
     <br>
     <div><a href="https://mamaearth.in/return-policy">Returns</a></div>
@@ -522,18 +526,10 @@ align-items: center;
     <div><a href="">Orders</a></div>
     <br>
     <div><a href="">Addresses</a></div>
-
-
-
-
 </div>
-
 <div id="tdiv-fdiv">
 <img src="	https://mamaearthp.imgix.net/wysiwyg/Best-Brand500x5002x.png?auto=format" alt="">
 </div>
-
-
-
 </div>
 
 <div id="below-fourthdiv">
@@ -552,12 +548,12 @@ align-items: center;
 <div id="below-fifthdiv">
     <p>© 2022 Honasa Consumer Pvt. Ltd. All Rights Reserved</p>
 </div>
-</div>
-
+</div> -->
+<div id="footer"></div>
 </body>
 </html>
 
 
-<script src="./scripts/cart.js">
+<script type="module" src="./scripts/cart.js">
 
 </script>
