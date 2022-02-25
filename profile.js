@@ -1,3 +1,6 @@
+import footer_body from "./footer/footer_components/footer_body.js";
+document.getElementById("footer").innerHTML = footer_body();
+
 var btns = document.getElementsByClassName("menu_item");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {

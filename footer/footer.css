@@ -1,7 +1,7 @@
 #footer_wrapper{
-    width: 80%;
+    width: 90%;
     margin: 2% auto;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     padding: 2%;
 }
 #footer_wrapper>div{
@@ -34,7 +34,7 @@
 .query>button{
     background-color: inherit;
     border: 1px solid #26adee;
-    padding: 2% 5%;
+    padding: 2% 3%;
     border-radius: 5px;
     font-weight: 500;
     color: #26adee;
@@ -114,13 +114,14 @@
     color: red;
 }
 #footer_social_icons{
-    font-size: 2vw;
+    font-size: 2.5vw;
     width: 50%;
     margin: 2% auto;
 }
 #footer_social_icons>div
 {
     display: inline-block;
+    margin-left:3%;
 } 
 @media screen and (min-width:768px) and (max-width:1000px) {
     #footer_nav{

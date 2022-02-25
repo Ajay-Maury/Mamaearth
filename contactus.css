@@ -1,27 +1,29 @@
-#header{
+#contact_head{
     text-align: center;
     background-color: #f2f9e8;
     font-weight: bolder;
     padding: 2%;
     color: #8a9abc;
 }
-#header>h1{padding: 0;}
+#contact_head>h1{padding: 0;}
 .top{
     text-align: center;
     padding: 2%;
     font-weight: bolder;
-    margin: 8%;
+    margin: 6.5%;
     color: black;
 }
 #contact_us{
     width: 80%;
     margin: auto auto;
-    display: flex;
 }
 #contact_us>div{
+    display: flex;    
+}
+#contact_us>div>div{
     flex: 5;
 }
-#c_form>input,select,option,textarea,button{
+#c_form>input,select,option,textarea{
     width: 95%;
     padding: 2% 0;
     margin: 2% 0;
@@ -33,6 +35,9 @@
     color: #8a9abc;
 }
 #c_form>button{
+    width: 95%;
+    padding: 2% 0;
+    margin: 2% 0;
     border: none;
     font-weight: bolder;
     font-size: larger;
@@ -70,4 +75,12 @@
 #c_home>a{
     text-decoration: none;            
     color: #00aefe;
+}
+@media screen and (min-width:0px)  and (max-width:768px) {
+    #contact_us>div{
+        display: block;        
+    }
+    #contact_us{width: 90%;}
+    #c_form{border: none;}
+    #social_icon{font-size: 5vw;}
 }
