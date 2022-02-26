@@ -141,12 +141,21 @@
 
 </div>
 
-
+<div id="footer"></div>
 
 </body>
 </html>
 
 
-<script type="module" src="./scripts/cart.js">
+<script src="./scripts/cart.js">
+
+
+</script>
+<script type="module">
+  import footer_body from "../footer/footer_components/footer_body.js";
+import header from "../header.js"
+document.getElementById("nav").innerHTML = header()
+
+document.getElementById("footer").innerHTML = footer_body();
 
 </script>
