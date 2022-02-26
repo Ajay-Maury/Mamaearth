@@ -118,6 +118,10 @@ function header(){
         flex: 33.33%;
         padding: 5px 30px;
       }  
+      #abc{
+        position:relative;
+        bottom:11px;
+      }
   </style>
 
 
@@ -171,7 +175,7 @@ function header(){
 <div class="navbar">
     <a href="index.html">HOME</a>
     <div class="dropdown">
-      <button  class="dropbtn"><a href="baby.html">BABY</a></button>
+      <button  class="dropbtn"><a id="abc" href="baby.html">BABY</a></button>
       <div class="dropdown-content">
         <div class="row">
           <div class="column" style="border-right:1px solid grey;margin:2%;">
@@ -223,7 +227,7 @@ function header(){
     </div>
 
     <div class="dropdown">
-      <button class="dropbtn"><a href="hair.html">HAIR</a></button>
+      <button class="dropbtn"><a id="abc" href="hair.html">HAIR</a></button>
       <div class="dropdown-content">
         <div class="row">
           <div class="column" style="border-right:1px solid grey;margin:2%;">
