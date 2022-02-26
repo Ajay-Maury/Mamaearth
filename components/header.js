@@ -171,7 +171,7 @@ function header(){
 <div class="navbar">
     <a href="index.html">HOME</a>
     <div class="dropdown">
-      <button class="dropbtn">BABY</button>
+      <button  class="dropbtn"><a href="baby.html">BABY</a></button>
       <div class="dropdown-content">
         <div class="row">
           <div class="column" style="border-right:1px solid grey;margin:2%;">
@@ -223,7 +223,7 @@ function header(){
     </div>
 
     <div class="dropdown">
-      <button class="dropbtn">HAIR</button>
+      <button class="dropbtn"><a href="hair.html">HAIR</a></button>
       <div class="dropdown-content">
         <div class="row">
           <div class="column" style="border-right:1px solid grey;margin:2%;">
