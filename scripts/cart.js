@@ -232,7 +232,7 @@ function  upi_show(){
 
     var btnd=document.createElement("button");
     btnd.setAttribute("id","btn")
-    btnd.innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMeakxB5cSaUGNwuOWc-_nKSuLkyFRtrl_8g&usqp=CAU" />';
+    btnd.innerHTML = '<img src="https://toppng.com//public/uploads/preview/recycling-bin-vector-delete-icon-png-black-11563002079w1isxqyyiv.png" />';
 
     btnd.addEventListener("click",del);
     function del(){
