@@ -1,8 +1,8 @@
-import footer_body from "../footer/footer_components/footer_body.js";
-import header from "../header.js"
-document.getElementById("nav").innerHTML = header()
+// import footer_body from "../footer/footer_components/footer_body.js";
+// import header from "../header.js"
+// document.getElementById("nav").innerHTML = header()
 
-document.getElementById("footer").innerHTML = footer_body();
+// document.getElementById("footer").innerHTML = footer_body();
 
 
 let parent =document.getElementById("payment-cont");
@@ -71,6 +71,7 @@ function  upi_show(){
      <input type="password" id="CVV" placeholder="CVV">
      <input type="text" id="name" placeholder="Name on the card">
      <button onclick="orderplace()" id="upi_order"> PLACE ORDER</button>
+    
      <div id="check">
          <img src="https://mamaearthp.imgix.net/wysiwyg/noun_trusted_27146262x_6Ekja92.png?auto=format" alt="">
         <h4>100% Payment Protection, Easy Return Policy</h4>
@@ -83,7 +84,9 @@ function  upi_show(){
         <img src="	https://mamaearthp.imgix.net/wysiwyg/rupay2x.png?auto=format&fit=scale" alt="">
         <img src="	https://mamaearthp.imgix.net/wysiwyg/net_banking2x.png?auto=format&fit=scale" alt="">
         </div> 
-     `
+   
+      `
+     
  }
 
 
@@ -310,6 +313,7 @@ var cd=0;
 
 
  function orderplace(){
+     console.log("a");
     var a= document.getElementById("fname").value;
     var b=document.getElementById("lname").value;
     var c=document.getElementById("email").value;

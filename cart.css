@@ -1,10 +1,14 @@
 #cart{
     display: flex;
+    /* margin-top: 50%; */
+}
+#slideshow{
+    display:none;
 }
    #delivery_address{
 
     width:50%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left:10%;
 }
 #fname,#lname,#email,#number{
