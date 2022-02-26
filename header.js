@@ -143,7 +143,9 @@ function header(){
             <input type="text" id="blank" placeholder=" Search " name="search">
             
             
-            <button id="close" type="submit"><i class="fa fa-search"> Search</i></button>
+            <button id="close" type="submit"><span class="material-icons-outlined">
+            search
+            </span></button>
         
             </form>
      </div>   
@@ -152,49 +154,14 @@ function header(){
     <div class="column" style="flex: 2;margin-top: 25px;">
        
         
+    <div class="dropdown">
+    <a href="cart.html" class="fas fa-shopping-cart" style="font-family: 'FontAwesome';color: #2196F3;font-size: 20px;text-decoration:none;"><a href="cart.html"class="dropbtn">cart</a></a>
+    
+    
+  </div>
         <div class="dropdown">
-          <a href="#" class="fa fa-shopping-cart" style="color: #2196F3;font-size: 120%;text-decoration:none;" ><a  class="dropbtn">Cart</a></a>
-          
-
-        </div>
-        <div class="dropdown">
-          <a href="#" class="fas fa-user" style="font-family: 'FontAwesome';color: #2196F3;font-size: 20px;text-decoration:none;"><a class="dropbtn">Sign up</a></a>
-          
-          <div class="dropdown-content" style="margin-left:-3%;">
-            <div class="row" >
-              <div class="column" style="border-right:1px solid grey;padding:0%;">
-              <a href="#" style="font-size:100%;margin:5%;margin-top:5%;" ><span class="material-icons">
-              account_box
-              </span>Name and number</a>
-                <a href="#" style="font-size:100%;margin:5%;"><spam class="material-icons"> account_circle </spam>Your profile</a>
-                <hr>
-                 
-                 
-                <a href="#" style="font-size:100%;margin:5%;margin-top:5%;" ><span class="material-icons">
-                  account_balance_wallet
-                  </span>Mama Cash</a>
-                  <hr>
-                <a href="#" style="font-size:100%;margin:5%;"><span class="material-icons">
-                  shopping_cart
-                  </span>Your Orders</a>
-                  <hr>
-                <a href="#" style="font-size:100%;margin:5%;"><span class="material-icons">
-                  pin_drop
-                  </span>Manage Address</a>
-                  <hr>
-                <a href="#" style="font-size:100%;margin:5%;"><span class="material-icons">
-                  call
-                  </span>Contact Us</a>
-                  <hr>
-                <a href="#" style="font-size:100%;margin:5%;">
-                  <span class="material-icons">
-                    logout
-                    </span>logout</a>
-              </div>
-              
-            </div>
-          
-          </div>
+          <a href="signup.html" class="fas fa-user" style="font-family: 'FontAwesome';color: #2196F3;font-size: 20px;text-decoration:none;"><a href="signup.html" class="dropbtn">Sign up</a></a>
+         
         </div>
 
         
@@ -202,26 +169,26 @@ function header(){
 </div>
     
 <div class="navbar">
-    <a href=""  style="margin-left: 5%;">HOME</a>
+    <a href="index.html">HOME</a>
     <div class="dropdown">
-      <button class="dropbtn">BABY</button>
+      <button  class="dropbtn"><a href="baby.html">BABY</a></button>
       <div class="dropdown-content">
         <div class="row">
           <div class="column" style="border-right:1px solid grey;margin:2%;">
             Explore
-            <a href="">New Launches</a>
-            <a href="">Best Sellers</a>
-            <a href="">Combos</a>
-            <a href="">Gift Packs</a>
+            <a href="baby.html">New Launches</a>
+            <a href="baby.html">Best Sellers</a>
+            <a href="baby.html">Combos</a>
+            <a href="baby.html">Gift Packs</a>
           </div>
           <div class="column" style="margin:2%;">
-            <a href="" style="color: rgba(0, 0, 0, 0.815);font-size: 15px;padding: 0 0;">Baby</a>
-            <a href="">Baby Shampoo</a>
-            <a href="">Baby Oralcare</a>
-            <a href="">Baby Oil</a>
-            <a href="">Baby Skin</a>
-            <a href="">Baby Bath</a>
-            <a href="">Baby Diaper</a></div>
+            <a href="baby.html" style="color: rgba(0, 0, 0, 0.815);font-size: 15px;padding: 0 0;">Baby</a>
+            <a href="baby.html">Baby Shampoo</a>
+            <a href="baby.html">Baby Oralcare</a>
+            <a href="baby.html">Baby Oil</a>
+            <a href="baby.html">Baby Skin</a>
+            <a href="baby.html">Baby Bath</a>
+            <a href="baby.html">Baby Diaper</a></div>
           <div class="column">
             <a href="#" class="button" style="background-color:white;color:  #3997e4ea;border: none;font-size: 14px;">See All</a></h2>
           </div>
@@ -256,23 +223,23 @@ function header(){
     </div>
 
     <div class="dropdown">
-      <button class="dropbtn">HAIR</button>
+      <button class="dropbtn"><a href="hair.html">HAIR</a></button>
       <div class="dropdown-content">
         <div class="row">
           <div class="column" style="border-right:1px solid grey;margin:2%;">
             Explore
-            <a href="">New Launches</a>
-            <a href="">Best Sellers</a>
-            <a href="">Combos</a>
-            <a href="">Gift Packs</a>
+            <a href="hair.html">New Launches</a>
+            <a href="hair.html">Best Sellers</a>
+            <a href="hair.html">Combos</a>
+            <a href="hair.html">Gift Packs</a>
           </div>
           <div class="column" style="margin:2%;">
-            <a href="" style="color: rgba(0, 0, 0, 0.815);font-size: 15px;padding: 0 0;">Hair</a>
-            <a href="">Shampoo</a>
-            <a href="">Conditioner</a>
-            <a href="">Hair Oil</a>
-            <a href="">Hair Serum</a>
-            <a href="">Hair Mask</a>
+            <a href="hair.html" style="color: rgba(0, 0, 0, 0.815);font-size: 15px;padding: 0 0;">Hair</a>
+            <a href="hair.html">Shampoo</a>
+            <a href="hair.html">Conditioner</a>
+            <a href="hair.html">Hair Oil</a>
+            <a href="hair.html">Hair Serum</a>
+            <a href="hair.html">Hair Mask</a>
           </div>
           <div class="column">
             <a href="#" class="button" style="background-color:white;color:  #3997e4ea;border: none;font-size: 14px;">See All</a></h2>
@@ -338,9 +305,9 @@ function header(){
 
     <a href="">GIFT-PACKS</a>
     <a href="">ALL PRODUCTS</a>
-    <a href="">BLOG</a>
-    <a href="">PLANT GOODNESS</a>
-    <a href="">STORE LOCATOR</a>
+    <a href="blog.html">BLOG</a>
+    <a href="plant_goodness.html">PLANT GOODNESS</a>
+    <a href="store.html">STORE LOCATOR</a>
     </div>
   
 
