@@ -49,6 +49,7 @@ const appendData = (element)=>{
      p.textContent="BEST SELLER";
 
      let btn = document.createElement('button')
+     btn.setAttribute('class','btn')
      btn.textContent='Add To Cart';
      btn.addEventListener('click', function(){
           addCart(arr)

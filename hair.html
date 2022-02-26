@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./hair.css">
+    <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./footer/footer.css">
+
 </head>
 <body>
+
+    <div id="header"></div>
     
 <div>
     <img class="big-img" src="https://images.ctfassets.net/66mrrren2unf/2Dt0h7FbdNUqWcQDy5IBSa/378a2256530ea153e89c4af9b38a8661/desktop_with_CTA.jpg?q=40" alt="">
@@ -35,7 +40,26 @@
 
 </div>
 
+<div id="footer">
+
+</div>
+
 
     <script src="./hair.js"></script>
 </body>
 </html>
+<script type="module">
+
+
+import header from "./header.js"
+import footer_body from "./footer/footer_components/footer_body.js";
+
+document.getElementById("header").innerHTML = header()
+
+document.getElementById("footer").innerHTML = footer_body();
+
+
+
+
+
+</script>
