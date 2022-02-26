@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>baby segment</title>
     <link rel="stylesheet" href="./baby.css">
+    <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./footer/footer.css">
+
 </head>
 
 <body>
+
+    <div id="header"></div>
 
     <div class="top-img">
         <img class="big-img"
@@ -57,13 +62,27 @@
 
     <div id="container-2"></div>
    
-
+<div id="footer"></div>
 
     <script src="./baby.js"></script>
 </body>
 
 </html>
 
+<script type="module">
+import header from "./header.js"
+import footer_body from "./footer/footer_components/footer_body.js";
+
+
+document.getElementById("header").innerHTML = header()
+
+document.getElementById("footer").innerHTML = footer_body();
+
+
+
+
+
+</script>
 
  
 

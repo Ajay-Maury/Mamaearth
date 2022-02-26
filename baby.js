@@ -63,6 +63,7 @@ let container1 = document.getElementById('container-1')
             let content_div = document.createElement('div')
     
             let btn = document.createElement('button')
+            btn.setAttribute('class','btn')
             btn.textContent='Add To Cart';
             btn.addEventListener('click', function(){
               addCart(element)
@@ -216,6 +217,7 @@ let container1 = document.getElementById('container-1')
             desc.innerText = element.desc;
     
             let btn = document.createElement('button')
+            btn.setAttribute('class','btn')
             btn.textContent='Add To Cart';
             btn.addEventListener('click', function(){
               addCart(element)
