@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="store.css">
+    <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./footer/footer.css">
+
     
      
     
 </head>
 <body>
+<div id="header">
+
+</div>
     <div id="fir">
         <div id="first">
             <div id="first1">
@@ -37,7 +43,7 @@
     </div>
     <button id="btn">Get Directions</button>
     
-        <div id="imge">
+        <!-- <div id="imge">
             <div>
             <img src="https://mamaearthp.imgix.net/wysiwyg/delivery2x.png?auto=format" alt="">
             <h4>Free Shipping</h4>
@@ -52,7 +58,8 @@
             <h2>Have Queries or Concerns?</h2>
             <button>Contact us</button>
         </div>
-    </div>
+    </div> -->
+    <div id="footer"></div>
 </body>
 </html>
 <script src="store.js">
@@ -67,6 +74,14 @@
     //     });
     // }
    
+
+</script>
+<script type="module">
+    import footer_body from "../footer/footer_components/footer_body.js";
+import header from "../header.js"
+document.getElementById("header").innerHTML = header()
+
+document.getElementById("footer").innerHTML = footer_body();
 
 </script>
 

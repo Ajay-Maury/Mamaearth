@@ -7,15 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="plant_goodness.css">
     
-        /* body{
-            width: 95%;
-            margin: auto;
-            height: 100%;
-        } */
       
+        <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./footer/footer.css">
+    
     
 </head>
 <body>
+    <div id="header">
+        
+    </div>
+
     <div>
         <div><img src="https://mamaearthp.imgix.net/wysiwyg/desktop_home_img.jpg?auto=format" width="100%" height="350px" alt=""></div>
         <div id="second" >
@@ -78,7 +80,7 @@
             </div>
         </div>
 
-
+<!-- 
         <div id="ninth">
 
             <div>
@@ -97,8 +99,8 @@
                     <button>Contact Us</button>
                 </div>
             </div>
-        </div>
-
+        </div> -->
+<!-- 
         <div id="tenth">
             <div>
                 <h3>PAYMENT</h3>
@@ -121,16 +123,28 @@
                 <h5>FDA Approved</h5></div>
                 <div>
                 <div><img src="https://mamaearthp.imgix.net/wysiwyg/MadeSafeImages13Jan/madesafe13janlogo.png?auto=format" alt=""></div>
-                <h5>Made Safe Certified</h5></div>
+                <h5>Made Safe Certified</h5></div> -->
 
 
             </div>
 
 
     </div>
+    <div id="footer"></div>
 </body>
 </html>
-<script src="plant_goodness.js">
+<script  src="plant_goodness.js">
   
+
+</script>
+
+<script type="module">
+import footer_body from "../footer/footer_components/footer_body.js";
+import header from "../header.js"
+document.getElementById("header").innerHTML = header()
+
+document.getElementById("footer").innerHTML = footer_body();
+
+
 
 </script>

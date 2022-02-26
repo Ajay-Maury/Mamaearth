@@ -53,10 +53,17 @@
 }#eigth  img{
     height:100%;
     width: 80%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }h1{
     text-align: center;
-}#ninth{
+}#slideshow{
+    display: none;
+}
+
+
+
+
+#ninth{
     display: flex;
   border: 1px solid grey;
    margin-top: 70px;
