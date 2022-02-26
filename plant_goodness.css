@@ -56,28 +56,23 @@
     /* border: 1px solid gray; */
 }h1{
     text-align: center;
-}#slideshow{
-    display: none;
-}
-
-
-
-
-#ninth{
+}#ninth{
     display: flex;
-  border: 1px solid grey;
+   border: 1px solid grey; 
    margin-top: 70px;
    gap: 20%;
    height:180px ;
-   width: 90%;
-   margin-left: 5%;
+   width: 95%;
+   /* margin-left: 0%; */
     justify-content: space-around;
 }#ninth1{
     display: flex;
    border: 1px solid gray;
-   width: 60%;
+   width: 98%;
+
    height:180px;
-    gap: 10%;
+
+    /* gap: 10%; */
 justify-content: space-around;
 }#ninth img{
     height: 25%;
@@ -92,10 +87,11 @@ justify-content: space-around;
     color: white;
 }#tenth{
     display: flex;
+    
     border: 1px solid grey;
     height: 180px;
     justify-content: center;
-    margin: 0% 2% 2% 0%;
+    margin: 0% 5% 2% 0%;
 }#tenth1{
     display: flex;
 }#tenth1 img{
@@ -104,8 +100,9 @@ justify-content: space-around;
     padding-left: 5%;
 }#tenth2 img{
     display: flex;
-    border: 1 px solid grey;
+    /* border: 1 px solid grey; */
     height: 60px;
+    
     margin-top: 20px;
 }#tenth2{
     display: flex;
@@ -132,5 +129,7 @@ justify-content: space-around;
        margin-top: 15px;
 
     
+   }#slideshow{
+       display: none;
    }
 
