@@ -164,7 +164,7 @@ function header(){
     
   </div>
   <div class="dropdown">
-  <a href="#" class="fas fa-user" style="font-family: 'FontAwesome';color: #2196F3;font-size: 20px;text-decoration:none;"><a class="dropbtn">Sign up</a></a>
+  <a href="signup.html" class="fas fa-user" style="font-family: 'FontAwesome';color: #2196F3;font-size: 20px;text-decoration:none;"><a href="signup.html" class="dropbtn">Sign up</a></a>
   
   <div class="dropdown-content" style="margin-left:-3%;">
     <div class="row" >
