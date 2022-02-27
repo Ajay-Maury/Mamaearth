@@ -163,10 +163,42 @@ function header(){
     
     
   </div>
-        <div class="dropdown">
-          <a href="signup.html" class="fas fa-user" style="font-family: 'FontAwesome';color: #2196F3;font-size: 20px;text-decoration:none;"><a href="signup.html" class="dropbtn">Sign up</a></a>
+  <div class="dropdown">
+  <a href="#" class="fas fa-user" style="font-family: 'FontAwesome';color: #2196F3;font-size: 20px;text-decoration:none;"><a class="dropbtn">Sign up</a></a>
+  
+  <div class="dropdown-content" style="margin-left:-3%;">
+    <div class="row" >
+      <div class="column" style="border-right:1px solid grey;padding:0%;">
+        <a href="profile.html" style="font-size:100%;margin:5%;"><spam class="material-icons"> account_circle </spam>Your profile</a>
+        <hr>
          
-        </div>
+         
+        <a href="#" style="font-size:100%;margin:5%;margin-top:5%;" ><span class="material-icons">
+          account_balance_wallet
+          </span>Mama Cash</a>
+          <hr>
+        <a href="cart.html" style="font-size:100%;margin:5%;"><span class="material-icons">
+          shopping_cart
+          </span>Your Orders</a>
+          <hr>
+        <a href="#" style="font-size:100%;margin:5%;"><span class="material-icons">
+          pin_drop
+          </span>Manage Address</a>
+          <hr>
+        <a href="contact_us.html" style="font-size:100%;margin:5%;"><span class="material-icons">
+          call
+          </span>Contact Us</a>
+          <hr>
+        <a href="login.html" style="font-size:100%;margin:5%;">
+          <span class="material-icons">
+            logout
+            </span>logout</a>
+      </div>
+      
+    </div>
+  
+  </div>
+</div>
 
         
 </div>
