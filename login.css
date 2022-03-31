@@ -38,7 +38,7 @@ img{
     color: darkgray;
     font-size: 20px;
 }
-#user{
+#email{
     width: 85%;
     height: 50px;
     margin-left: 7%;
@@ -141,7 +141,7 @@ span{
         margin-bottom: 20px;
     }
 
-    #user{
+    #email{
         width: 90%;
         height: 40px;
         margin-left: 3%;
