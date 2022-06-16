@@ -12,6 +12,7 @@ TEAM MEMBERS
 
 6-Rasheed
 
+7-Rohit
 
 we had to clone Mamaearth(ecommerce website) with all the functionalities. we divided the roles and responsibilities on our very first day of collaboration and started working .Here are the glimpse on our projects
 
